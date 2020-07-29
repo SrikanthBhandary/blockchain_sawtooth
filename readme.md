@@ -5,6 +5,11 @@ These can be built separately, and docker.host.interal used as host name to comm
 
 In order to run the following example. You have to do the steps.
 
+### Install the project dependencies ###
+```
+pip3 install -r requirements.txt
+```
+
 ### Building Docker components ###
 
 ```
