@@ -1,0 +1,2 @@
+FROM hyperledger/sawtooth-rest-api:1.2
+CMD sawtooth-rest-api -vvv --connect tcp://host.docker.internal:4004 --bind 0.0.0.0:8008

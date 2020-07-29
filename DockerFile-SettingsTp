@@ -1,0 +1,2 @@
+FROM hyperledger/sawtooth-settings-tp:1.2
+CMD settings-tp -vv --connect tcp://host.docker.internal:4004

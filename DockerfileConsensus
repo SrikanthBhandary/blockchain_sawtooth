@@ -1,0 +1,2 @@
+FROM hyperledger/sawtooth-devmode-engine-rust:1.2
+CMD devmode-engine-rust --connect tcp://host.docker.internal:5050

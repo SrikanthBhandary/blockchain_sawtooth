@@ -1,0 +1,26 @@
+Building Docker components
+-----------------------------------------------------
+docker build -f DockerFile-RestAPI . -t rest-api
+docker build -f DockerFile-SettingsTp . -t settp
+docker build -f DockerfileValidator . -t validator
+docker build -f DockerfileConsensus . -t consensus
+
+
+Running Containers
+-----------------------------------------------------
+docker run -p 4004:4004 -p 5050:5050 validator
+docker run settp
+docker run -p 8008:8008 rest-api
+docker run  consensus
+
+
+Running Transaction Processor:
+----------------------------
+python3 transaction_processor.py
+
+
+Running the client
+----------------------------
+python3 client.py
+
+
