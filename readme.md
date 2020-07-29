@@ -3,7 +3,7 @@
 This project shows the example of the creation of simple transaction processor and running in the docker environment. For easy understanding I have removed the docker compose and split into multiple docker files.
 These can be built separately, and docker.host.interal used as host name to communicate from the docker host machine.
 
-In order to run the following example. You have to do the steps.
+In order to run the example. You have to run the following commands.
 
 ### Install the project dependencies ###
 ```
